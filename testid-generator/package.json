@@ -1,0 +1,12 @@
+{
+  "name": "@impactinc/vite-plugin-add-data-test-id",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js"],
+  "peerDependencies": {
+    "vite": ">=4",
+    "@vue/compiler-dom": "^3.5.0",
+    "@vue/compiler-sfc": "^3.5.0"
+  }
+}

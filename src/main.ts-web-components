@@ -1,0 +1,8 @@
+import Vue from "vue";
+import HelloWorldController from "./components/hello-world/HelloWorldController.vue";
+
+import vueCustomElement from "vue-custom-element";
+Vue.use(vueCustomElement);
+
+import "@/assets/styles.css";
+Vue.customElement("hello-world", HelloWorldController);

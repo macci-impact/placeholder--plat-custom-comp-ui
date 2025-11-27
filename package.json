@@ -1,0 +1,69 @@
+{
+  "name": "@macci-impact/placeholder-plat-custom-component",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && vite build -c vite.config.ts && vite build -c vite.config.main-linkgenerator-slideout.ts",
+    "build-watch": "vite build --watch",
+    "dev": "vite",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "test": "vitest --run --passWithNoTests",
+    "test:unit": "vitest --environment jsdom",
+    "preview": "vite preview --port 4173",
+    "saveBuildInfo": "echo ''",
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "NODE_ENV=development storybook build -o dist",
+    "type": "vue-tsc --noEmit"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/impactinc"
+  },
+  "module": "dist/platform-custom-ui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/platform-custom-ui.es.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "qrcode.vue": "3.4.1",
+    "qrious": "4.0.2",
+    "vue": "3.4.28"
+  },
+  "devDependencies": {
+    "@impactinc/frontend-vue-eslint-config": "~1.2.0",
+    "@impactinc/ui-component-library": "4.43.0",
+    "@storybook/addon-essentials": "8.2.9",
+    "@storybook/addon-interactions": "8.2.9",
+    "@storybook/addon-links": "8.2.9",
+    "@storybook/builder-vite": "8.2.9",
+    "@storybook/test": "8.2.9",
+    "@storybook/vue3": "8.2.9",
+    "@storybook/vue3-vite": "8.2.9",
+    "@types/jsdom": "21.1.7",
+    "@typescript-eslint/eslint-plugin": "8.2.0",
+    "@typescript-eslint/parser": "8.2.0",
+    "@vitejs/plugin-vue": "5.1.2",
+    "@vue/test-utils": "2.4.6",
+    "@vue/tsconfig": "0.5.1",
+    "eslint": "8.57.0",
+    "less": "4.2.0",
+    "msw": "2.3.5",
+    "msw-storybook-addon": "2.0.3",
+    "prettier": "3.3.3",
+    "storybook": "8.2.9",
+    "typescript": "^5.5.4",
+    "vite": "5.4.20",
+    "vite-plugin-css-injected-by-js": "3.5.1",
+    "vitest": "2.1.9",
+    "vue-component-type-helpers": "2.0.29",
+    "vue-tsc": "2.0.29"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}

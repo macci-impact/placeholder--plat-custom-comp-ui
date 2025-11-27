@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap");
+/* Accessibility */
+/* GLOBAL VARIABLES
+----------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, code, em, img, strike, strong, sub, sup, tt,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, canvas, embed,
+audio, video {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0 !important;
+}
+img, fieldset {
+  border: 0;
+}
+img {
+  vertical-align:middle;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size:100%;
+}
+
+
+:root {
+  --on-gap-1: var(--iui-vertical-padding, 8px);
+  --on-gap-2: var(--iui-horizontal-padding, 10px);
+  --on-gap-3: 20px;
+  --on-gap-4: var(--iui-page-gutter, 30px);
+  --on-gap-5: 40px;
+  --on-gap-6: 60px;
+
+  --on-font-family: "Mulish", var(--iui-font-family-default, sans-serif);
+  --on-border-default: var(--iui-border-default);
+  --on-border-radius-default: var(--iui-border-radius-default, 8px);
+  --on-font-size-default: var(--iui-font-size-default, 14px);
+
+  --on-box-shadow-default: var(--iui-box-shadow-light);
+}

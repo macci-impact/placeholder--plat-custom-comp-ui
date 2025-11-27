@@ -1,0 +1,36 @@
+{
+  "include": [
+    "env.d.ts",
+    "vite.config.*",
+    "src/*.vue",
+    "src/**/*.vue",
+    "src/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"],
+  // TODO: Need to re-evaluate these and simplify
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "composite": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noImplicitThis": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "resolveJsonModule": true,
+    "removeComments": true,
+    // See <https://github.com/vuejs/vue-cli/pull/5688>
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
+    "types": ["node", "vue", "vite/client"]
+  },
+  // Needed for support of the Vue official plugin for VSCode when using Vue 2
+  "vueCompilerOptions": {
+    "target": 2.7
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "af": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Onverwagte fout",
+    "mp.dashboard.create_a_link.error.slideout_message": "'n Ongeldige antwoord is van die bediener ontvang. Maak asseblief die sypaneel toe en probeer weer. Ons vra om verskoning vir die ongerief."
+  },
+  "ar": {
+    "mp.dashboard.create_a_link.error.slideout_title": "خطأ غير متوقع",
+    "mp.dashboard.create_a_link.error.slideout_message": "تم استلام رد غير صحيح من الخادم. يُرجى إغلاق اللوحة الجانبية والمحاولة مرة أخرى. نعتذر عن أي إزعاج."
+  },
+  "bg": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Неочаквана грешка",
+    "mp.dashboard.create_a_link.error.slideout_message": "Получен е невалиден отговор от сървъра. Моля, затворете страничния панел и опитайте отново. Извиняваме се за причиненото неудобство."
+  },
+  "zh_CN": {
+    "mp.dashboard.create_a_link.error.slideout_title": "意外错误",
+    "mp.dashboard.create_a_link.error.slideout_message": "服务器收到无效响应。请关闭侧面板并重试。不便之处，敬请谅解。"
+  },
+  "zh_TW": {
+    "mp.dashboard.create_a_link.error.slideout_title": "意外錯誤",
+    "mp.dashboard.create_a_link.error.slideout_message": "伺服器收到無效回應。請關閉側面板並重試。不便之處，請諒解。"
+  },
+  "cs": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Neočekávaná chyba",
+    "mp.dashboard.create_a_link.error.slideout_message": "Ze serveru byla přijata neplatná odpověď. Zavřete prosím boční panel a zkuste to znovu. Omlouváme se za nepříjemnosti."
+  },
+  "da": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Uventet fejl",
+    "mp.dashboard.create_a_link.error.slideout_message": "Der blev modtaget et ugyldigt svar fra serveren. Luk sidepanelet og prøv igen. Vi beklager ulejligheden."
+  },
+  "nl": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Onverwachte fout",
+    "mp.dashboard.create_a_link.error.slideout_message": "Er is een ongeldig antwoord ontvangen van de server. Sluit het zijpaneel en probeer het opnieuw. Onze excuses voor het ongemak."
+  },
+  "en_US": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Unexpected Error",
+    "mp.dashboard.create_a_link.error.slideout_message": "An invalid response was received from the server. Please close the side panel and try again. We apologize for the inconvenience."
+  },
+  "en_GB": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Unexpected Error",
+    "mp.dashboard.create_a_link.error.slideout_message": "An invalid response was received from the server. Please close the side panel and try again. We apologize for the inconvenience."
+  },
+  "et": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Ootamatu viga",
+    "mp.dashboard.create_a_link.error.slideout_message": "Serverilt saadi sobimatu vastus. Palun sulgege külgpaneel ja proovige uuesti. Vabandame ebamugavuste pärast."
+  },
+  "fil": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Hindi Inaasahang Error",
+    "mp.dashboard.create_a_link.error.slideout_message": "Isang di-wastong tugon ang natanggap mula sa server. Pakisara ang side panel at subukang muli. Humihingi kami ng paumanhin para sa abala."
+  },
+  "fi": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Odottamaton virhe",
+    "mp.dashboard.create_a_link.error.slideout_message": "Palvelimelta vastaanotettiin virheellinen vastaus. Sulje sivupaneeli ja yritä uudelleen. Pahoittelemme häiriötä."
+  },
+  "fr": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Erreur inattendue",
+    "mp.dashboard.create_a_link.error.slideout_message": "Une réponse non valide a été reçue du serveur. Veuillez fermer le panneau latéral et réessayer. Nous vous prions de nous excuser pour la gêne occasionnée."
+  },
+  "fr_CA": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Erreur inattendue",
+    "mp.dashboard.create_a_link.error.slideout_message": "Une réponse invalide a été reçue du serveur. Veuillez fermer le panneau latéral et réessayer. Veuillez nous excuser pour la gêne occasionnée."
+  },
+  "de": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Unerwarteter Fehler",
+    "mp.dashboard.create_a_link.error.slideout_message": "Vom Server wurde eine ungültige Antwort empfangen. Bitte schließen Sie die Seitenleiste und versuchen Sie es erneut. Wir entschuldigen uns für die Unannehmlichkeiten."
+  },
+  "he": {
+    "mp.dashboard.create_a_link.error.slideout_title": "שגיאה בלתי צפויה",
+    "mp.dashboard.create_a_link.error.slideout_message": "התקבלה תגובה לא חוקית מהשרת. אנא סגור את החלונית הצדדית ונסה שוב. אנו מתנצלים על אי הנוחות."
+  },
+  "hi": {
+    "mp.dashboard.create_a_link.error.slideout_title": "अप्रत्याशित त्रुटि",
+    "mp.dashboard.create_a_link.error.slideout_message": "सर्वर से एक अमान्य प्रतिक्रिया प्राप्त हुई। कृपया साइड पैनल बंद करें और पुनः प्रयास करें। असुविधा के लिए हमें खेद है।"
+  },
+  "id": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Kesalahan Tak Terduga",
+    "mp.dashboard.create_a_link.error.slideout_message": "Respons tidak valid diterima dari server. Harap tutup panel samping dan coba lagi. Mohon maaf atas ketidaknyamanan ini."
+  },
+  "it": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Errore imprevisto",
+    "mp.dashboard.create_a_link.error.slideout_message": "Il server ha ricevuto una risposta non valida. Chiudi il pannello laterale e riprova. Ci scusiamo per l'inconveniente."
+  },
+  "ja": {
+    "mp.dashboard.create_a_link.error.slideout_title": "予期しないエラー",
+    "mp.dashboard.create_a_link.error.slideout_message": "サーバーから無効な応答を受信しました。サイドパネルを閉じてもう一度お試しください。ご不便をおかけして申し訳ございません。"
+  },
+  "ko": {
+    "mp.dashboard.create_a_link.error.slideout_title": "예기치 않은 오류",
+    "mp.dashboard.create_a_link.error.slideout_message": "서버에서 잘못된 응답을 받았습니다. 사이드 패널을 닫고 다시 시도해 주세요. 불편을 드려 죄송합니다."
+  },
+  "lv": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Negaidīta kļūda",
+    "mp.dashboard.create_a_link.error.slideout_message": "No servera saņemta nederīga atbilde. Lūdzu, aizveriet sānu paneli un mēģiniet vēlreiz. Atvainojamies par sagādātajām neērtībām."
+  },
+  "lt": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Netikėta klaida",
+    "mp.dashboard.create_a_link.error.slideout_message": "Iš serverio gautas neteisingas atsakymas. Uždarykite šoninį skydelį ir bandykite dar kartą. Atsiprašome už nepatogumus."
+  },
+  "ms": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Ralat Tidak Dijangka",
+    "mp.dashboard.create_a_link.error.slideout_message": "Jawapan tidak sah telah diterima daripada pelayan. Sila tutup panel sisi dan cuba lagi. Kami memohon maaf atas kesulitan ini."
+  },
+  "mt": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Żball Mhux Mistenni",
+    "mp.dashboard.create_a_link.error.slideout_message": "Waslet tweġiba invalida mis-server. Jekk jogħġbok agħlaq il-pannell tal-ġenb u erġa' pprova. Niskużaw ruħna għall-inkonvenjent."
+  },
+  "no": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Uventet feil",
+    "mp.dashboard.create_a_link.error.slideout_message": "Et ugyldig svar ble mottatt fra serveren. Lukk sidepanelet og prøv på nytt. Vi beklager ulempen dette medfører."
+  },
+  "pt": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Erro inesperado",
+    "mp.dashboard.create_a_link.error.slideout_message": "Uma resposta inválida foi recebida do servidor. Feche o painel lateral e tente novamente. Pedimos desculpas pelo inconveniente."
+  },
+  "pt_BR": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Erro inesperado",
+    "mp.dashboard.create_a_link.error.slideout_message": "Uma resposta inválida foi recebida do servidor. Feche o painel lateral e tente novamente. Pedimos desculpas pelo inconveniente."
+  },
+  "pl": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Nieoczekiwany błąd",
+    "mp.dashboard.create_a_link.error.slideout_message": "Otrzymano nieprawidłową odpowiedź z serwera. Zamknij panel boczny i spróbuj ponownie. Przepraszamy za niedogodności."
+  },
+  "ru": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Неожиданная ошибка",
+    "mp.dashboard.create_a_link.error.slideout_message": "От сервера получен недопустимый ответ. Закройте боковую панель и повторите попытку. Приносим извинения за доставленные неудобства."
+  },
+  "sl": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Nepričakovana napaka",
+    "mp.dashboard.create_a_link.error.slideout_message": "Strežnik je prejel neveljaven odgovor. Zaprite stransko ploščo in poskusite znova. Opravičujemo se za nevšečnosti."
+  },
+  "es": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Error inesperado",
+    "mp.dashboard.create_a_link.error.slideout_message": "Se recibió una respuesta no válida del servidor. Cierre el panel lateral e inténtelo de nuevo. Disculpe las molestias."
+  },
+  "es_MX": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Error inesperado",
+    "mp.dashboard.create_a_link.error.slideout_message": "Se recibió una respuesta no válida del servidor. Cierre el panel lateral e inténtelo de nuevo. Disculpe las molestias."
+  },
+  "sv": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Oväntat fel",
+    "mp.dashboard.create_a_link.error.slideout_message": "Ett ogiltigt svar mottogs från servern. Stäng sidopanelen och försök igen. Vi ber om ursäkt för besväret."
+  },
+  "th": {
+    "mp.dashboard.create_a_link.error.slideout_title": "ข้อผิดพลาดที่ไม่คาดคิด",
+    "mp.dashboard.create_a_link.error.slideout_message": "ได้รับคำตอบที่ไม่ถูกต้องจากเซิร์ฟเวอร์ กรุณาปิดแผงด้านข้างแล้วลองอีกครั้ง ขออภัยในความไม่สะดวก"
+  },
+  "tr": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Beklenmeyen Hata",
+    "mp.dashboard.create_a_link.error.slideout_message": "Sunucudan geçersiz bir yanıt alındı. Lütfen yan paneli kapatıp tekrar deneyin. Yaşanan aksaklıktan dolayı özür dileriz."
+  },
+  "vi": {
+    "mp.dashboard.create_a_link.error.slideout_title": "Lỗi không mong muốn",
+    "mp.dashboard.create_a_link.error.slideout_message": "Đã nhận được phản hồi không hợp lệ từ máy chủ. Vui lòng đóng bảng điều khiển bên và thử lại. Chúng tôi xin lỗi vì sự bất tiện này."
+  }
+}
