@@ -15,9 +15,6 @@
     "storybook:build": "NODE_ENV=development storybook build -o dist",
     "type": "vue-tsc --noEmit"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/impactinc"
-  },
   "module": "dist/platform-custom-ui.es.js",
   "exports": {
     ".": {
