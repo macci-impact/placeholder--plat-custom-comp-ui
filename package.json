@@ -1,6 +1,6 @@
 {
   "name": "@macci-impact/placeholder-plat-custom-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "build": "rm -rf dist && vite build -c vite.config.ts && vite build -c vite.config.main-linkgenerator-slideout.ts",
@@ -19,7 +19,9 @@
   "exports": {
     ".": {
       "import": "./dist/platform-custom-ui.es.js"
-    }
+    },
+
+    "./dist/SampleComponent.js": "./dist/SampleComponent.js"
   },
   "files": [
     "dist"
