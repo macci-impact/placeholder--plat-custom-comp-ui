@@ -1,0 +1,154 @@
+@import url('https://ui.impact.com/theme-tokens/1.9.4/themes.css');
+@import url('https://ui.impact.com/theme-tokens/1.9.4/index.css');
+@import url('https://ui.impact.com/theme-tokens/1.9.4/fonts.css');
+@import url('https://ui.impact.com/4.19.0/impactui.css');
+
+:host {
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+.d-block { display: block; }
+
+.mt-24 { margin-top: 24px; }
+.mt-4 { margin-top: 4px;}
+
+.mb-24 { margin-bottom: 24px; }
+.mb-8 { margin-bottom: 8px; }
+.mb-4 { margin-bottom: 4px; }
+
+.mr-4 { margin-right: 4px; }
+
+.two-fa-view-container {
+    padding: 24px;
+    height: 100%;
+    min-height: 400px;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: var(--iui3-typography-font-family-font-family, Sarabun);
+    color: var(--iui3-color-text-text-default, #121212);
+}
+
+.header {
+    color: var(--iui3-color-text-text-default, #121212);
+    font-feature-settings: 'liga' off, 'clig' off;
+    /* Header */
+    font-size: var(--iui3--font-size-header, 24px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--iui3-line-height-header, 33px); /* 137.5% */
+    text-transform: capitalize;
+}
+.description {
+    color: var(--iui3-color-text-text-subdued, #696969);
+    font-size: var(--iui3-font-size-description-text, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--iui30line-height-description-text, 18px); /* 128.571% */
+}
+
+.text-input {
+    display: flex;
+    height: var(--iui3-space-height-input-height-default, 40px);
+    padding: 7px var(--iui3-space-padding-input-padding-leftright, 8px);
+    align-items: center;
+    gap: var(--iui3-space-gap-gap-default, 8px);
+    align-self: stretch;
+    border-radius: var(--iui3-space-radius-input-radius, 8px);
+    border: 1px solid var(--iui3-color-border-border-interactive, #949494);
+    width: 100%;
+}
+
+.text-input-label {
+    color: var(--iui3-color-text-text-default, #121212);
+    font-size: var(--iui3-font-size-field-label, 16px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--iui3-line-height-field-label, 20px);
+}
+
+.field--error input.text-input{
+    border-radius: var(--iui3-space-radius-input-radius, 8px);
+    border: 1px solid var(--iui3-color-critical-border-critical, #C81426);
+    background: var(--iui3-color-critical-background-critical-subdued, #FFDEDC);
+}
+.error-message {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    color: var(--iui3-color-critical-text-critical, #C81426);
+    font-size: var(--iui3-font-size-help-text, 12px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--iui3-line-height-help-text, 15px);
+}
+
+.resend-code-holder{
+    color: var(--iui3-color-text-text-subdued, #696969);
+    font-size: var(--iui3-font-size-description-text, 14px);
+
+}
+.resend-code-holder .span-header{
+    color: var(--iui3-color-text-text-default, #121212);
+    font-size: var(--iui3-font-size-regular-text, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--iui3-line-height-regular-text, 18px); /* 128.571% */
+}
+
+.resend-code-holder strong{
+    color: var(--iui3-color-text-text-default, #121212);
+}
+
+.resend-code-holder .btn-span{
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: var(--iui3-color-text-text-default, #121212);
+    text-decoration: underline;
+    font-size: var(--iui3-font-size-description-text, 14px);
+    font-weight: 600;
+}
+
+.footer{
+    margin: 0 -24px;
+    border-top: 1px solid var(--iui3-color-border-border-default, #CACFD3);
+    padding: 16px 24px 0;
+}
+.continue-action-btn {
+    outline: none;
+    border: none;
+    display: flex;
+    width: 100%;
+    height: var(--iui3-space-height-button-height-default, 40px);
+    min-width: 65px;
+    padding: 0 var(--iui3-space-padding-button-padding-leftright-default, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--iui3-space-gap-gap-default, 8px);
+    border-radius: var(--iui3-space-radius-button-radius, 9999px);
+    background: var(--iui3-color-primary-button-primary-background-default, #121212);
+    cursor: pointer;
+}
+
+.continue-action-btn span{
+    color: var(--iui3-color-primary-button-text-on-primary-default, #FFF);
+    text-align: center;
+    font-family: var(--iui3-typography-font-family-font-family, Sarabun);
+    font-size: var(--iui3-font-size-secondary-field-label, 14px);
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.continue-action-btn[disabled] {
+    background-color: var(--iui3-color-primary-button-disabled-background-default, #94a3b8);
+    cursor: not-allowed;
+}

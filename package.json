@@ -1,6 +1,6 @@
 {
   "name": "@macci-impact/placeholder-plat-custom-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "build": "rm -rf dist && vite build -c vite.config.ts && vite build -c vite.config.main-linkgenerator-slideout.ts",
@@ -21,7 +21,28 @@
       "import": "./dist/platform-custom-ui.es.js"
     },
 
-    "./dist/SampleComponent.js": "./dist/SampleComponent.js"
+    "./dist/SampleComponent.js": "./dist/SampleComponent.js",
+    "./two-fa-options": {
+      "import": "./dist/components-shared/two-fa/TwoFaOptions.js",
+      "require": "./dist/components-shared/two-fa/TwoFaOptions.js"
+    },
+    "./two-fa-verify-mobile": {
+      "import": "./dist/components-shared/two-fa/TwoFaVerifyMobile.js",
+      "require": "./dist/components-shared/two-fa/TwoFaVerifyMobile.js"
+    },
+    "./two-fa-verify-email": {
+      "import": "./dist/components-shared/two-fa/TwoFaVerifyEmail.js",
+      "require": "./dist/components-shared/two-fa/TwoFaVerifyEmail.js"
+    },
+    "./two-fa-send-and-verify-webcomponent": {
+      "import": "./dist/components-shared/two-fa/TwoFaSendAndVerify.js",
+      "require": "./dist/components-shared/two-fa/TwoFaSendAndVerify.js"
+    },
+    "./web-component-template-simple": {
+      "import": "./dist/components-shared/templates/WebComponentTemplateSimple.js",
+      "require": "./dist/components-shared/templates/WebComponentTemplateSimple.js"
+    }
+
   },
   "files": [
     "dist"
